@@ -1,12 +1,12 @@
 .hamburger-container {
-  width: 200px;
-  height: 90px;
+  width: 50px;
+  height: 25px;
   position: relative; }
 
 .steak, .top-bun, .bottom-bun {
   width: 100%;
   margin: 0 auto;
-  height: 10px;
+  height: 5px;
   background: green;
   position: absolute;
   top: 50%;
@@ -18,7 +18,7 @@
   top: 0; }
 
 .bottom-bun {
-  top: 90px; }
+  top: 25px; }
 
 .before {
   animation: before 1s ease forwards; }
@@ -36,30 +36,30 @@
   0% {
     transform: translateX(-50%) translateY(-50%); }
   50% {
-    transform: translateX(-50%) translateY(40px); }
+    transform: translateX(-50%) translateY(10px); }
   /* 75%{
     transform: translateX(-50%) translateY(30px) rotate(-67.5deg);
   } */
   100% {
-    transform: translateX(-50%) translateY(40px) rotate(-135deg); } }
+    transform: translateX(-50%) translateY(10px) rotate(-135deg); } }
 @keyframes after {
   0% {
     transform: translateX(-50%) translateY(-50%); }
   50% {
-    transform: translateX(-50%) translateY(-50px); }
+    transform: translateX(-50%) translateY(-15px); }
   /* 75%{
     transform: translateX(-50%) translateY(-40px) rotate(67.5deg);
   } */
   100% {
-    transform: translateX(-50%) translateY(-50px) rotate(135deg); } }
+    transform: translateX(-50%) translateY(-15px) rotate(135deg); } }
 @keyframes before_reverse {
   0% {
-    transform: translateX(-50%) translateY(40px) rotate(-135deg); }
+    transform: translateX(-50%) translateY(10px) rotate(-135deg); }
   100% {
     transform: translateX(-50%) translateY(-50%) rotate(180deg); } }
 @keyframes after_reverse {
   0% {
-    transform: translateX(-50%) translateY(-50px) rotate(135deg); }
+    transform: translateX(-50%) translateY(-15px) rotate(135deg); }
   100% {
     transform: translateX(-50%) translateY(-50%) rotate(-180deg); } }
 @keyframes open {
