@@ -37,9 +37,6 @@
     transform: translateX(-50%) translateY(-50%); }
   50% {
     transform: translateX(-50%) translateY(10px); }
-  /* 75%{
-    transform: translateX(-50%) translateY(30px) rotate(-67.5deg);
-  } */
   100% {
     transform: translateX(-50%) translateY(10px) rotate(-135deg); } }
 @keyframes after {
@@ -47,9 +44,6 @@
     transform: translateX(-50%) translateY(-50%); }
   50% {
     transform: translateX(-50%) translateY(-15px); }
-  /* 75%{
-    transform: translateX(-50%) translateY(-40px) rotate(67.5deg);
-  } */
   100% {
     transform: translateX(-50%) translateY(-15px) rotate(135deg); } }
 @keyframes before_reverse {
